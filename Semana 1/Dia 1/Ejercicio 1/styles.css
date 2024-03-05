@@ -1,0 +1,92 @@
+body {
+    background-color: aqua;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F5584502.png&f=1&nofb=1&ipt=fb150bf60ca0d281510271e271a21f78aba25eaa232018079983dcd860638c29&ipo=images");
+}
+
+
+.contenedor {
+    width: 1000px;
+    height: 800px;
+    border-radius: 5%;
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    
+   
+}
+
+.contenedor-imagen {
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 150px;
+   
+    
+}
+
+.contenedor-imagen img {
+    width: 400px;
+   
+}
+
+.form-title {
+    width: 400px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.form-title h2 {
+    font-size: 45px;
+}
+
+.form-container {
+    width: 400px;
+    margin-left: 50px;
+}
+
+.form-input {
+    width: 100%;
+    margin-top: 20px;
+   
+}
+
+.form-input input {
+    width: 100%;
+    background-color: rgb(185, 185, 185);
+    border: none;
+    height: 70px;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding-left: 15px;
+}
+
+textarea {
+    width: 100%;
+    background-color: rgb(185, 185, 185);
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 15px;
+    padding-top: 10px;
+    border-radius: 20px;
+    
+    
+}
+textarea::placeholder {
+    font-size: 30px;
+}
+
+.boton {
+    margin-top: 20px;
+    text-align: center;
+    height: 50px;
+}
+
+.boton button {
+    height: 50px;
+    width: 60%;
+    border: none;
+    background-color: rgb(12, 160, 12);
+    color: white;
+    font-size: 22px;
+    border-radius: 20px;
+}
